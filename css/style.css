@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* Course part start */
+.title {
+    padding: 60px 0 40px 0;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #5b6b80;
+    font-family: 'Arimo', sans-serif;
+    padding-bottom: 8px;
+}
+
+.title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    font-family: 'Arimo', sans-serif;
+}
+#course .course-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#course .item {
+    width: 577px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border: 1px solid #cccccc;
+    border-right: 0;
+}
+
+#course_part .bt {
+    margin-top: 15px;
+}
+
+#course .item .text {
+    width: 342px;
+}
+
+#course .item .text h3 {
+    font-size: 24px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #353535;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#course .item .text p {
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #777;
+    line-height: 26px;
+    padding: 15px 17px 0 15px;
+}
+#course .item .text .button {
+    padding-top: 40px;
+}
+
+#course .item .text a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    background-color: #49596d;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    padding-right: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all linear .3s;
+}
+
+#course .item .text a:hover {
+    background-color: #E52C23;
+}
+
+#course .item .img {
+    width: 220px;
+    padding-bottom: 5px;
+}
+
+/* Course part end */
+/* Gallery part start */
+#gallery .gallery_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#gallery .item {
+    width: 370px;
+    padding-bottom: 30px;
+}
+
+#gallery .bt {
+    padding-bottom: 0;
+}
+
+#gallery .item img {
+    display: block;
+}
+/* Gallery part end */
+/*-------contact part start-------*/
+
+#contact form input {
+    width: 568px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4d5968;
+    font-family: 'Arimo', sans-serif;
+    text-transform: capitalize;
+}
+
+#contact form input::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4d5968;
+    font-family: 'Arimo', sans-serif;
+    text-transform: capitalize;
+}
+
+#contact form .ma-right {
+    margin-right: 30px;
+}
+
+#contact form textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    outline: none;
+    padding: 15px 15px 50px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4d5968;
+    font-family: 'Arimo', sans-serif;
+    text-transform: capitalize;
+}
+
+#contact form textarea::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4d5968;
+    font-family: 'Arimo', sans-serif;
+}
+
+#contact form .button {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#contact form .button button {
+    padding: 14px 40px;
+    background-color: #49596d;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+
+#contact form .button button:hover {
+    background-color: #E52C23;
+}
+
+/*-------contact part end-------*/
